@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Angular 2 Slidedeck with TypeScript and JSPM</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="blacksandsolutions.co">
+    <base href="/">
+    <link data-require="bootstrap-css@*" data-semver="3.3.1" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+    <!-- systemJS loader and config -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/2.0.0-beta.1/angular2-polyfills.min.js"></script>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+
+</head>
+
+<body ng-cloak>
+    <app>
+        ... Loading ...
+    </app>
+
+    <!-- import and run our app -->
+    <script>
+        System.import('app');
+    </script>
+</body>
+
+</html>
